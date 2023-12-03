@@ -1,0 +1,97 @@
+/* what was my intention ? */
+
+
+/* 
+
+.btnBox {
+    border: 2px solid cyan;
+    width: 57%;
+    height: 45px;
+    border-radius: 10px;
+    margin: 100px auto;
+    background: #000;
+    color: white;
+    padding: 1px;
+    outline: none;
+}
+
+.sub {
+    position: absolute;
+    font-size: 1.4rem;
+    top: 11.5%;
+    left: 44%;
+}
+#btn {
+    display: none;
+}
+
+.btnBox:hover {
+    animation: sub;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sub {
+    50% {
+        display: block;
+        width: 190px;
+    margin-left: 59.4%;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 1.7rem;
+    font-style: italic;
+    background: linear-gradient(blue, skyblue);
+    color: red;
+    outline: none;
+    border: none;
+    }
+}
+
+*/
+
+.nfsBox {
+    margin: 200px auto;
+    height: 200px;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 10px;
+    border-radius: 14px;
+    background-color: rgba(65, 63, 68, 0.785);
+}
+
+.btn {
+    height: 45px;
+    width: 200px;
+    font-weight: 700;
+    font-size: 1.1em;
+    background-color: rgba(30, 32, 32, 0.739);
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+.btn:hover {
+    color: goldenrod;
+    background-color: rgba(52, 48, 48, 0.518);
+}
+
+.yes-box:hover, .no-box:hover{
+    border-color: goldenrod;
+}
+
+
+
+/* styles for boxes housing the buttons */
+.yes-box, .no-box {
+
+    border: 5px solid transparent;
+    padding: 8px;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 10px;
+}
+
